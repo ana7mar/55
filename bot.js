@@ -10,9 +10,12 @@ client.on('ready', async() => {
 var server = "514500934009618433"; // ايدي السررفر
 var channel = "514500934529974303";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Dream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speed , Dream speed , Dream speed , Dream speed , Dream speed ,  Dream speed , Dream speed , Dream speed , Dream speed , Dream speed , Dream speed, Dream speed , Dream speed , Dream speed, Dream speed , Dream speed, **')
+    client.guilds.get(server).channels.get(channel).send('**Dream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speed , Dream speed , Dream speed , Dream speed , Dream speed ,  Dream speed , Dream speed , Dream speed , Dream speed , Dream speed , Dream speed, Dream speed , Dream speed , Dream speed, Dream speed , Dream speed,Dream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speed **')
+  **')Dream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speedDream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speed,Dream , Dream speed , Dream speed  , Dream speed  , Dream speed  , Dream speed
     },305);
+
 })
+
 
 client.on('message', message => {
   if (message.author.bot) return;
